@@ -6,8 +6,8 @@ TWILIO_TOKEN = os.getenv("TWILIO_TOKEN")
 client = Client(account_sid, auth_token)
 
 # WhatsApp message details
-from_whatsapp_number = 'whatsapp:+14155238886'  # Twilio sandbox number
-to_whatsapp_number = 'whatsapp:+918072990775'   # Your verified phone number
+from_whatsapp_number = 'whatsapp:Twilio sandbox number'  # Twilio sandbox number
+to_whatsapp_number = 'whatsapp:Your verified phone number'   # Your verified phone number
 
 message_body = "🩸 URGENT: A hospital near you needs B+ blood . Can you donate? Reply 'Available' or 'Not Available'."
 
